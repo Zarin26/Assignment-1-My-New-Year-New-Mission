@@ -9,7 +9,7 @@ body {
 header {
     border-radius: 16px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    width: 1320px;
+    width: 1300px;
     height: 600px;
     border-radius: 16px;
     text-align: center;
@@ -19,6 +19,7 @@ header {
 
 h3 {
     font-family: Merriweather;
+    color: white;
     padding-top: 150px;
     font-size: 32px;
     font-weight: 400;
@@ -30,4 +31,49 @@ h1 {
     font-weight: 900;
     padding: 0px 344px 200px 344px;
     margin-top: 0 px;
+}
+
+/* Offer Relaed Styles */
+
+section {
+    width: 1600px;
+    height: 7335px;
+}
+
+section>h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 0%;
+}
+
+section>h4 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0%;
+    margin-bottom: 0;
+
+}
+
+section>h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 0%;
+}
+
+/* image center */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
 }
