@@ -35,12 +35,12 @@ h1 {
 
 /* Offer Relaed Styles */
 
-section {
+.offer {
     width: 1600px;
-    height: 7335px;
+    height: 1000px;
 }
 
-section>h2 {
+.offer>h2 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -49,7 +49,7 @@ section>h2 {
     padding-bottom: 0%;
 }
 
-section>h4 {
+.offer>h4 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -60,7 +60,7 @@ section>h4 {
 
 }
 
-section>h3 {
+.offer>h3 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -70,10 +70,137 @@ section>h3 {
 }
 
 /* image center */
-.center {
+.offer>.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
     height: 500px;
+}
+
+/* party section related style */
+.party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    width: 1300px;
+    height: 600px;
+    border-radius: 16px;
+    margin: 50px 80px;
+    display: flex;
+
+}
+
+.party>div>h2 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7x;
+    width: 640px;
+    padding: 50px 50px 50px 100px;
+
+}
+
+.party>div>p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 800px;
+    padding-left: 100px;
+}
+
+.party>div>button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 120px;
+}
+
+.party>div>img {
+    margin-left: auto;
+    padding-top: 70px;
+}
+
+.PDT {
+    background-image: linear-gradient(180deg, pink, white);
+    border-radius: 16px;
+    width: 1300px;
+    height: 480px;
+    margin-left: 70px;
+    margin-top: 200px;
+    padding-top: 50px;
+}
+
+.PDT>ul {
+    padding: 100px;
+}
+
+.PDT>ul>li {
+    list-style: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.PDT>button {
+    color: #FFF;
+    font-size: 20px;
+    Font-weight: 700;
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    margin-left: 45%;
+    border-style: none;
+}
+
+span {
+    color: red;
+}
+
+.best-offer {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 70px;
+    align-content: space-between;
+}
+
+.new-best-offer>h3 {
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-best-offer>p {
+    width: 380px;
+
+}
+
+#ellipse {
+    border-radius: 450px;
+    border: 10px solid red;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.new-2024 {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 280px
+}
+.new-2024>h2 {
+    color: red;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 100px;
 }
