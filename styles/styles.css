@@ -1,5 +1,6 @@
 /* Common Shared Styles */
 body {
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -166,6 +167,8 @@ span {
     color: red;
 }
 
+/* best offer section related styles */
+
 .best-offer {
     display: flex;
     margin-top: 200px;
@@ -197,10 +200,107 @@ span {
     margin-right: 100px;
     width: 280px
 }
+
 .new-2024>h2 {
     color: red;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
     padding-top: 100px;
+}
+
+/* Discount related styles */
+
+.sale {
+    margin-top: 200px;
+    margin-left: 70px;
+    width: 1300px;
+    height: 200px;
+    text-align: center;
+}
+
+.sale>h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale>h2 {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale>p {
+    width: 1300px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sale>div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.discount {
+    width: 1300px;
+    height: 450px;
+}
+
+.box {
+    position: relative;
+    top: 150px;
+    left: 200px;
+    ;
+}
+
+.overlay {
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+/* The Best Gift related styles */
+
+.best-gifts {
+    width: 1300px;
+    height: 700px;
+    padding-top: 800px;
+    margin-left: 70px;
+}
+
+.text>h3 {
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.text>h2 {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text>p {
+    width: 850px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text {
+    padding-left: 10px;
+}
+.best-gifts>div>img {
+    width: 410px;
+    height: 420px;
+    padding-block: 10px;
+    padding-inline: 10px;
 }
