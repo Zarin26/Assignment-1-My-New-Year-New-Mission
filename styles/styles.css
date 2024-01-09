@@ -337,8 +337,10 @@ span {
 
 .newsletter>div {
     padding-top: 40px;
-    
+    margin-bottom: 100px;
+
 }
+
 .newsletter>div>input {
     width: 500px;
     height: 60px;
@@ -366,4 +368,54 @@ span {
     border-style: hidden;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer style */
+
+footer {
+    background-color: black;
+    width: 1450px;
+    height: 600px;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+}
+.main-f {
+    display: flex ;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list>ul {
+    list-style: none;
+    display: block;
+}
+
+.list>ul>li {
+    display: block;
+    padding-right: 50px;
+}
+
+hr {
+    background: rgba(14, 13, 13, 0.022);
+    width: 1300px;
+    height: 1px;
+    padding-left: 50px;
+    
+}
+
+.social-icons {
+    padding-left: 600px;
+}
+.social-icons>img {
+    padding: 10px;
+}
+.last-f {
+    display: flex ;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
